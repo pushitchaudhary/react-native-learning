@@ -1,11 +1,11 @@
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import { Button, StyleSheet, Text, View } from 'react-native';
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>This is pushit chaudhary sdf</Text>
-      <StatusBar style="auto" />
+      <Text style={{fontSize : 49, color : 'red'}}> This is pushit chaudhary </Text>
+      <Button title='Login Here'></Button>
     </View>
   );
 }
@@ -17,4 +17,5 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
   },
+
 });
